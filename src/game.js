@@ -1,4 +1,4 @@
-// ===== game.js : les règles dial l'jeu bo7dhom (ma kaymessch l'page / DOM) =====
+// ===== game.js : les règles dial l'jeu bo7dhom (ma kaymessch lpage / DOM) =====
 
 // lcartes dial kol camp
 const empereurhand = ["empereur", "citoyen", "citoyen", "citoyen", "citoyen"];
@@ -39,7 +39,7 @@ export function creategame(playerid){
     };
 }
 
-// groupe (1 -> 4) : kol 3 manches = groupe
+// hadi CONTS THE NUMBER B
 export const getgroup = (round) => Math.ceil(round / 3);
 
 // chkon y7et carte dyalo lowel : Empereur, mn ba3d Esclave, mn ba3d Empereur...
